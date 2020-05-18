@@ -39,10 +39,6 @@ Trabalho prático do módulo 1 do bootcamp fullstack IGTI, construindo uma aplic
 
 <br>
 
-<img src="https://igti.instructure.com/courses/2937/files/189259/preview">
-
-<br>
-
 ## Dicas
 
 <br>
@@ -54,15 +50,3 @@ Trabalho prático do módulo 1 do bootcamp fullstack IGTI, construindo uma aplic
     <li>Para definir a cor da div, utilize style.backgroundColor. O valor deve ser uma string que, por sua vez, interpola a função rgb() do CSS. Mais informações <a href="https://www.w3schools.com/cssref/func_rgb.asp">aqui</a>.</li>
     <li>Mais alguns valores de referência:</li>
 </ul>
-
-<br>
-
-<img src="https://igti.instructure.com/courses/2937/files/189273/preview">
-
-<br>
-
-<img src="https://igti.instructure.com/courses/2937/files/189274/preview">
-
-<br>
-
-<img src="https://igti.instructure.com/courses/2937/files/189262/preview">
