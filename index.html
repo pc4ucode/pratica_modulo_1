@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    <title>Trabalho Prático do módulo 1</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h4>Mix de cor</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="row justify-content-center">
+                            <div class="col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row mb-1">
+                                            <div class="col-md-4 mt-2">
+                                                <span>(R) Vermelho:</span>
+                                            </div>
+                                            <div class="col-md-6 mt-2">
+                                                <input type="range" class="custom-range" id="rgbRed" min="0" max="255" data-target="inputRed">
+                                            </div>
+                                            <div class="col-md-2">
+                                                <input id="inputRed" class="form-control" type="text" disabled>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-1">
+                                            <div class="col-md-4 mt-2">
+                                                <span>(G) Verde:</span>
+                                            </div>
+                                            <div class="col-md-6 mt-2">
+                                                <input type="range" class="custom-range" id="rgbGreen" min="0" max="255" data-target="inputGreen" />
+                                            </div>
+                                            <div class="col-md-2">
+                                                <input id="inputGreen" class="form-control" type="text" disabled />
+                                            </div>
+                                        </div>
+                                        <div class="row mb-1">
+                                            <div class="col-md-4 mt-2">
+                                                <span>(B) Azul:</span>
+                                            </div>
+                                            <div class="col-md-6 mt-2">
+                                                <input type="range" class="custom-range" id="rgbBlue" min="0" max="255" data-target="inputBlue" />
+                                            </div>
+                                            <div class="col-md-2">
+                                                <input id="inputBlue" class="form-control" type="text" disabled />
+                                            </div>
+                                        </div>
+                                        <div class="row mb-1">
+                                            <div class="col-md-12">
+                                                <div class="d-flex justify-content-center">
+                                                    <div id="colorBox" class="quadrado"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer text-muted text-center">
+                        Author: Euler Amorim
+                    </div>
+                </>
+            </div>
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
